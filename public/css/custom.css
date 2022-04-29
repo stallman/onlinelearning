@@ -1,0 +1,26 @@
+.answer-mark li.not-checked:before {
+    background-color: #f5ab52; }
+
+
+@media only screen and (max-width: 600px) {
+
+    .dropdown-menu {
+        width: 350px;
+        overflow-x: hidden;
+    }
+
+    .dropdown-menu .show {
+        overflow-x: hidden;
+    }
+
+    .dropdown-menu .text {
+        width: 305px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+}
+
+.test-submit{
+    justify-content: flex-end;
+}
